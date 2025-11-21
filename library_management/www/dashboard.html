@@ -1,0 +1,80 @@
+{% extends "templates/web.html" %}
+{% block title %}Library Dashboard{% endblock %}
+
+{% block page_content %}
+
+<style>
+    .dashboard {
+        padding: 30px 0;
+    }
+
+    .dashboard h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .card {
+        border-radius: 10px;
+        padding: 20px;
+        color:black;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .card .count {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    .card.members { background-color:whitesmoke; }
+    .card.books { background-color: wheat }
+    .card.issued { background-color: whitesmoke; }
+    .card.overdue { background-color:wheat; }
+
+    @media (max-width: 767px) {
+        .card .count { font-size: 2rem; }
+    }
+</style>
+
+<div class="container dashboard">
+    <h2> Library Dashboard</h2>
+    <div class="row g-4">
+        
+        <div class="col-md-3 col-sm-6">
+            <div class="card members">
+                <div>Total Members</div>
+                <div class="count">{{total_members }}</div>
+            </div>
+        </div>
+ 
+        <div class="col-md-3 col-sm-6">
+            <div class="card books">
+                <div>Total Books</div>
+                <div class="count">{{ total_books }}</div>
+            </div>
+        </div>
+
+       
+        <div class="col-md-3 col-sm-6">
+            <div class="card issued">
+                <div>Issued Count of Books</div>
+                <div class="count">{{ total_issued }}</div>
+            </div>
+        </div>
+
+        
+        <!-- <div class="col-md-3 col-sm-6">
+            <div class="card overdue">
+                <div>Overdue Books</div>
+                <div class="count">{{ total_overdue }}</div>
+            </div>
+        </div> -->
+    </div>
+</div>
+
+{% endblock %}
