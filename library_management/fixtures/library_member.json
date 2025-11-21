@@ -1,0 +1,74 @@
+[
+ {
+  "address": "mkm",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "email": "raj@gmail.com",
+  "first_name": "raj",
+  "full_name": "raj n",
+  "last_name": "n",
+  "modified": "2025-10-16 11:02:43.019142",
+  "name": "raj n",
+  "phone": "+91-9927532709"
+ },
+ {
+  "address": "mkm",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "email": "goku@gmail.com",
+  "first_name": "gok",
+  "full_name": "gok n",
+  "last_name": "n",
+  "modified": "2025-10-16 16:47:53.260811",
+  "name": "gok n",
+  "phone": "+91-9567863765"
+ },
+ {
+  "address": "",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "email": "",
+  "first_name": "gg",
+  "full_name": "gg",
+  "last_name": "",
+  "modified": "2025-11-04 19:19:55.559233",
+  "name": "gg",
+  "phone": ""
+ },
+ {
+  "address": "mkm",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "email": "siva@gmail.com",
+  "first_name": "siva",
+  "full_name": "siva s",
+  "last_name": "s",
+  "modified": "2025-10-16 11:07:56.286954",
+  "name": "siva s",
+  "phone": "+91-9283875387"
+ },
+ {
+  "address": "mkm",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "email": "san@gmail.com",
+  "first_name": "sanjesh",
+  "full_name": "sanjesh s",
+  "last_name": "s",
+  "modified": "2025-10-16 13:09:17.540463",
+  "name": "sanjesh s",
+  "phone": "+91-8237842684"
+ },
+ {
+  "address": "mkm",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "email": "gokul@gmail.com",
+  "first_name": "Gokul",
+  "full_name": null,
+  "last_name": "N",
+  "modified": "2025-10-15 16:26:08.679580",
+  "name": "Gokul",
+  "phone": "+91-2345242345"
+ }
+]

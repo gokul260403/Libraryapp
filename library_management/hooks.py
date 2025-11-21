@@ -245,3 +245,4 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures=['Book','Library Member','Library Membership','Library Transaction','Client Script','Server Script','Web Form','Print Format','Web Page']

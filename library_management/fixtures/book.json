@@ -1,0 +1,28 @@
+[
+ {
+  "author_name": null,
+  "available_stocks": 86,
+  "book_name": "test",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Book",
+  "image": null,
+  "isbn": 0,
+  "modified": "2025-10-22 17:23:54.470284",
+  "name": "test",
+  "total_stock": 86
+ },
+ {
+  "author_name": "Morgan Housel",
+  "available_stocks": 11,
+  "book_name": "The Psychology of Money",
+  "description": "<div class=\"ql-editor read-mode\"><p>The Psychology of Money by Morgan Housel</p></div>",
+  "docstatus": 0,
+  "doctype": "Book",
+  "image": null,
+  "isbn": 1342314231,
+  "modified": "2025-10-22 16:06:27.611568",
+  "name": "The Psychology of Money",
+  "total_stock": 20
+ }
+]
